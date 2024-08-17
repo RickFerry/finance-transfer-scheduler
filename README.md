@@ -12,6 +12,7 @@ Esta aplicação é uma API para agendamento de transferências financeiras. O s
 - **Java 11**
 - **Spring Boot 2.6.0**
 - **Spring Data JPA**
+- **Spring Validation**
 - **H2 Database**
 - **Lombok**
 
@@ -88,7 +89,7 @@ spring:
     url: jdbc:h2:mem:finance-db
     driverClassName: org.h2.Driver
     username: sa
-    password: password
+    password: 
   h2:
     console:
       enabled: true
